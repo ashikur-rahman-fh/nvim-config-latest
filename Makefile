@@ -21,6 +21,12 @@ define log_event
   echo "$(BLUE)[→] $(1)$(NC)"
 endef
 
+help:
+	@$(call log_error,Please run make with specific option. i.e. make install.)
+	@echo "Available options:"
+	@echo "  clean"
+	@echo "  install"
+
 # Cleanup
 clean:
 	@rm -rf 	~/.local/share/nvim \

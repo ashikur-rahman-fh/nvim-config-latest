@@ -25,4 +25,4 @@ make install
 - Telescope - File Search
 - TreeSitter - Syntax Highlighting
 - UndoTree - File Edit History
-
+- NvimTree - File Tree

@@ -12,4 +12,10 @@ return require('packer').startup(function(use)
     tag = '0.1.8'
   }
   use { 'mbbill/undotree' }
+  use {
+    'nvim-tree/nvim-tree.lua',
+    requires = {
+      'nvim-tree/nvim-web-devicons', -- optional
+    }
+  }
 end)
