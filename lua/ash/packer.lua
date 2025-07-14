@@ -9,7 +9,8 @@ return require('packer').startup(function(use)
   use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
   use {
     'nvim-telescope/telescope.nvim',
-    tag = '0.1.8'
+    tag = '0.1.8',
+    requires = { {'nvim-lua/plenary.nvim'} }
   }
   use { 'mbbill/undotree' }
   use {
