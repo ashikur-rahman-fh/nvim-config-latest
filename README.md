@@ -9,6 +9,13 @@
 - ripgrep
 
 ### Installation
+#### Download
+Clone the repository inside `~/.config/nvim` directory.
+```
+cd ~/.config/nvim
+git clone https://github.com/ashikur-rahman-fh/nvim-config-latest.git .
+```
+
 #### Fresh Installation
 ```
 make clean
@@ -26,3 +33,4 @@ make install
 - TreeSitter - Syntax Highlighting
 - UndoTree - File Edit History
 - NvimTree - File Tree
+- LSP - Language Server for Completion
