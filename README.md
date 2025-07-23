@@ -7,6 +7,8 @@
 - gcc
 - make
 - ripgrep
+- mercurial
+- xclip
 
 ### Installation
 #### Download
@@ -34,3 +36,5 @@ make install
 - UndoTree - File Edit History
 - NvimTree - File Tree
 - LSP - Language Server for Completion
+- Diffview - File Diff Viewer
+- Comment - Comment toggler

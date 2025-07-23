@@ -9,7 +9,7 @@ mason_lsp_conf.setup({
     'pyright',
     'bashls',
     'rust_analyzer',
-    'eslint'
+    'ts_ls'
   },
 
   handlers = {

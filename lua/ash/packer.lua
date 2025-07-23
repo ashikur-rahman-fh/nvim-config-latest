@@ -23,6 +23,7 @@ return require('packer').startup(function(use)
     }
   }
   use { 'sindrets/diffview.nvim' }
+  use { 'numToStr/Comment.nvim' }
 
   -- LSP
   use {
