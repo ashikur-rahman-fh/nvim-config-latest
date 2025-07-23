@@ -4,10 +4,10 @@ comment.setup({
   padding = true,
   toggler = {
     line = 'cc',
-    block = 'bb',
+    block = 'cb',
   },
   opleader = {
     line = 'cc',
-    block = 'bb',
+    block = 'cb',
   }
 })
