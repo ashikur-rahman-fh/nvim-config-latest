@@ -19,12 +19,11 @@ mason_lsp_conf.setup({
   }
 })
 
--- disable errors/warnings
-local show_lsp_diagnostics = true
-if show_lsp_diagnostics == false then
-  vim.lsp.handlers["textDocument/publishDiagnostics"] = function() end
-end
-
+vim.diagnostic.config({
+  virtual_text = true,
+  signs = true,
+  update_in_insert = false,
+})
 
 -- ## Completion ## --
 local cmp = require('cmp')
