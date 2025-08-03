@@ -38,3 +38,4 @@ make install
 - LSP - Language Server for Completion
 - Diffview - File Diff Viewer
 - Comment - Comment toggler
+- Lualine - Nvim Bottom Status Bar `might need to do PackerUpdate`
